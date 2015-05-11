@@ -7,7 +7,11 @@ ul {list-style-type: none;}
 	color: #838994;
 	font-size: 1.04rem;
 	margin-top: 1.7rem;
-
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
 }
 
 .top-navigation .links li.active {
@@ -26,11 +30,6 @@ ul {list-style-type: none;}
 
 }
 
-.top-navigation .links {
-
-
-
-}
 
 
 .top-navigation .links li {
@@ -41,7 +40,9 @@ ul {list-style-type: none;}
 
 .top-navigation .logo { height: 4.375rem;}
 
-.top-navigation > .content { height: 4.375rem;}
+.top-navigation > .content { height: 4.375rem;
+
+	}
 
 .content {
 
