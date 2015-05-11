@@ -1,1 +1,61 @@
-p { color: blue;}
+
+ul {list-style-type: none;}
+
+.links {
+
+	float: right;
+	color: #838994;
+	font-size: 1.04rem;
+	margin-top: 1.7rem;
+
+}
+
+.top-navigation .links li.active {
+
+	font-weight: 500;
+	color: #4c5058;
+}
+
+.top-navigation { 
+
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	z-index: 9999;
+
+}
+
+.top-navigation .links {
+
+
+
+}
+
+
+.top-navigation .links li {
+
+	display: inline-block;
+	margin-left: 1.563rem;
+}
+
+.top-navigation .logo { height: 4.375rem;}
+
+.top-navigation > .content { height: 4.375rem;}
+
+.content {
+
+	padding: 0 0.938rem;
+	margin: 0 auto;
+	min-width: 37.5rem;
+}
+
+@media (min-width: 75rem) {
+
+	.content {
+
+		width: 60%;
+	}
+
+
+}
